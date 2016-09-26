@@ -9,6 +9,12 @@
     </RootNamespace>
     <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
     <AssemblyName>intheroom</AssemblyName>
+    <SaveServerSettingsInUserFile>false</SaveServerSettingsInUserFile>
+    <Runtime>PHP</Runtime>
+    <RuntimeVersion>5.6</RuntimeVersion>
+    <EnvName>IISExpress</EnvName>
+    <PHPDevHostName>localhost</PHPDevHostName>
+    <PHPDevAutoPort>true</PHPDevAutoPort>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
@@ -18,5 +24,24 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="index.php" />
+    <Compile Include="php\simple.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="js\" />
+    <Folder Include="data\" />
+    <Folder Include="php\" />
+    <Folder Include="sass\" />
+    <Folder Include="sass\components\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="boy.svg" />
+    <Content Include="data\data-users.json" />
+    <Content Include="gulpfile.js" />
+    <Content Include="js\itr.js" />
+    <Content Include="package.json" />
+    <Content Include="sass\components\navigation.scss" />
+    <Content Include="sass\components\props.scss" />
+    <Content Include="sass\itr.scss" />
+    <Content Include="sass\components\user.scss" />
   </ItemGroup>
 </Project>

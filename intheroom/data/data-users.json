@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "firstname": "Rob",
+      "lastname":  "Kostermans",
+      "email": "romain.hoogmoed@example.com",
+	  "job" : "Developer",  
+      "image": "boy.svg",
+	  "table" : "1",
+	  "seat" : "1"
+    },
+    {
+      "firstname": "Pete",
+      "lastname": "Piraat",
+      "email": "romain.hoogmoed@example.com",
+	  "job" : "Developer",
+      "image": "boy-1.svg",
+	  "table" : "1",
+	  "seat" : "2"
+	  
+    },
+	{
+      "firstname": "Jack",
+      "lastname": "Plop",
+      "email": "romain.hoogmoed@example.com",
+	  "job" : "Designer",
+      "image": "boy-2.svg",
+	  "table" : "2",
+	  "seat" : "1"
+    },
+	{
+      "firstname": "Julia",
+      "lastname": "Plop",
+      "email": "romain.hoogmoed@example.com",
+	  "job" : "Teamlead",
+      "image": "girl-2.svg",
+	  "table" : "2",
+	  "seat" : "3"
+    },
+	{
+      "firstname": "Tessa",
+      "lastname": "Plop",
+      "email": "romain.hoogmoed@example.com",
+	  "job" : "Scrummaster",
+      "image": "girl-1.svg",
+	  "table" : "1",
+	  "seat" : "3"
+    },
+	{
+      "firstname": "John",
+      "lastname": "Plop",
+      "email": "romain.hoogmoed@example.com",
+      "job" : "Tester",
+	  "image": "boy-5.svg",
+	  "table" : "3",
+	  "seat" : "1"
+    }
+	
+
+	
+  ]
+}

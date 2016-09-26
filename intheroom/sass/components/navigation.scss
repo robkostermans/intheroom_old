@@ -1,0 +1,13 @@
+﻿button{
+    background-color:transparent;
+    border:2px solid #fff;
+    color:#fff;
+    cursor:pointer;
+    padding:0.7em;
+    text-transform:uppercase;
+    margin-top:1em;
+    &.a{
+        background-color:#fff;
+        color:#000;
+    }
+}
